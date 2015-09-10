@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "Hyper's ESLint config",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint index.js"
+  },
   "repository": "hyperoslo/eslint-config",
   "author": "Tim Kurvers <tim@moonsphere.net>",
   "license": "MIT",
