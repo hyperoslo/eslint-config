@@ -9,11 +9,13 @@ Licensed under the **MIT** license, see LICENSE for more information.
 
 ## Usage
 
+Available via [npm](https://www.npmjs.com):
+
 ```shell
 npm install --save-dev eslint-config-hyperoslo babel-eslint
 ```
 
-`.eslintrc`:
+Tweak `.eslintrc`:
 
 ```json
 {
