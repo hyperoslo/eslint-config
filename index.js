@@ -1,7 +1,7 @@
-const merge = require('merge');
-const airbnb = require('eslint-config-airbnb/base');
-
-const hyperoslo = {
+module.exports = {
+  extends: [
+    'eslint-config-airbnb/base',
+  ],
   rules: {
     // Allow anonymous functions
     'func-names': [0],
@@ -10,5 +10,3 @@ const hyperoslo = {
     'object-curly-spacing': [2, 'always'],
   },
 };
-
-module.exports = merge.recursive(airbnb, hyperoslo);
