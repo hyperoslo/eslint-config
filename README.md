@@ -25,6 +25,22 @@ Tweak `.eslintrc`:
 }
 ```
 
+### React
+
+In addition to the base dependencies above, install the following:
+
+```shell
+npm install --save-dev eslint-plugin-react
+```
+
+Tweak `.eslintrc`:
+
+```json
+{
+  "extends": "hyperoslo/react"
+}
+```
+
 
 ## Credits
 
