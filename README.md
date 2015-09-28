@@ -17,6 +17,8 @@ npm install --save-dev eslint-config-hyperoslo eslint-config-airbnb babel-eslint
 
 ### ES6
 
+Tweak `.eslintrc`:
+
 ```json
 {
   "extends": "hyperoslo"
