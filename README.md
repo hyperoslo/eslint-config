@@ -12,14 +12,32 @@ Licensed under the **MIT** license, see LICENSE for more information.
 Available via [npm](https://www.npmjs.com):
 
 ```shell
-npm install --save-dev eslint-config-hyperoslo babel-eslint
+npm install --save-dev eslint-config-hyperoslo eslint-config-airbnb babel-eslint
 ```
+
+### ES6
 
 Tweak `.eslintrc`:
 
 ```json
 {
   "extends": "hyperoslo"
+}
+```
+
+### React
+
+In addition to the base dependencies above, install the following:
+
+```shell
+npm install --save-dev eslint-plugin-react
+```
+
+Tweak `.eslintrc`:
+
+```json
+{
+  "extends": "hyperoslo/react"
 }
 ```
 
