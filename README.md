@@ -6,7 +6,6 @@ Hyper's ESLint configuration, based on [Airbnb's](https://github.com/airbnb/java
 
 Licensed under the **MIT** license, see LICENSE for more information.
 
-
 ## Usage
 
 Available via [npm](https://www.npmjs.com):
@@ -40,7 +39,6 @@ Tweak `.eslintrc`:
   "extends": "hyperoslo/react"
 }
 ```
-
 
 ## Credits
 
