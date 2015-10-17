@@ -11,10 +11,16 @@ Licensed under the **MIT** license, see LICENSE for more information.
 Available via [npm](https://www.npmjs.com):
 
 ```shell
-npm install --save-dev eslint-config-hyperoslo eslint-config-airbnb babel-eslint
+npm install --save-dev eslint-config-hyperoslo eslint-config-airbnb
 ```
 
 ### ES6
+
+Additional dependencies to install:
+
+```shell
+npm install --save-dev babel-eslint
+```
 
 Tweak `.eslintrc`:
 
@@ -24,28 +30,22 @@ Tweak `.eslintrc`:
 }
 ```
 
-### ES5
+### ES5 (legacy)
 
-You only need the eslint-config-arbnb.
-
-```shell
-npm install --save-dev eslint-config-airbnb
-```
-
-Tweak `.eslintrc` to refer to the ES5 version of Airbnb config:
+Tweak `.eslintrc`:
 
 ```json
 {
-  "extends": "airbnb/legacy",
+  "extends": "hyperoslo/legacy",
 }
 ```
 
 ### React
 
-In addition to the base dependencies above, install the following:
+Additional dependencies to install:
 
 ```shell
-npm install --save-dev eslint-plugin-react
+npm install --save-dev babel-eslint eslint-plugin-react
 ```
 
 Tweak `.eslintrc`:
