@@ -24,6 +24,22 @@ Tweak `.eslintrc`:
 }
 ```
 
+### ES5
+
+You only need the eslint-config-arbnb.
+
+```shell
+npm install --save-dev eslint-config-airbnb
+```
+
+Tweak `.eslintrc` to refer to the ES5 version of Airbnb config:
+
+```json
+{
+  "extends": "airbnb/legacy",
+}
+```
+
 ### React
 
 In addition to the base dependencies above, install the following:
