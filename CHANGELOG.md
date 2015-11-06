@@ -1,5 +1,10 @@
 # Changelog
 
+### v1.1.0 - November 6, 2015
+
+- Add ES5 legacy support.
+- Enforce indentation of switch/case statements.
+
 ### v1.0.0 - September 29, 2015
 
 - React support.
@@ -12,4 +17,4 @@
 ### v0.1.0 - September 10, 2015
 
 - Initial release.
-- Disabled `func-names`.
+- Allow anonymous functions.
