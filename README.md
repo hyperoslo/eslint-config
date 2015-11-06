@@ -11,7 +11,7 @@ Licensed under the **MIT** license, see LICENSE for more information.
 Available via [npm](https://www.npmjs.com):
 
 ```shell
-npm install --save-dev eslint-config-hyperoslo eslint-config-airbnb
+npm install --save-dev eslint eslint-config-hyperoslo eslint-config-airbnb
 ```
 
 ### ES6
