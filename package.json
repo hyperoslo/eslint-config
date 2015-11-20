@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hyperoslo",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Hyper's ESLint config",
   "main": "index.js",
   "scripts": {

@@ -1,5 +1,9 @@
 # Changelog
 
+### v1.1.1 - November 20, 2015
+
+- Enforce `babel-eslint` parser for ES6+.
+
 ### v1.1.0 - November 6, 2015
 
 - Add ES5 legacy support.
