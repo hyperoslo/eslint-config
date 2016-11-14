@@ -4,7 +4,7 @@
   "description": "Hyper's ESLint config",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.{js,jsx}; exit 0"
+    "lint": "eslint . fixtures --ext js,jsx"
   },
   "repository": "hyperoslo/eslint-config",
   "author": "Tim Kurvers <tim@moonsphere.net>",
