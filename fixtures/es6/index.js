@@ -1,4 +1,4 @@
-export default function(flag) {
+export default function (flag) {
   const config = { enabled: true };
 
   switch (flag) {

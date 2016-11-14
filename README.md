@@ -19,7 +19,7 @@ npm install --save-dev eslint eslint-config-hyperoslo eslint-config-airbnb
 Additional dependencies to install:
 
 ```shell
-npm install --save-dev babel-eslint
+npm install --save-dev babel-eslint eslint-plugin-import
 ```
 
 Tweak `.eslintrc`:
@@ -45,7 +45,7 @@ Tweak `.eslintrc`:
 Additional dependencies to install:
 
 ```shell
-npm install --save-dev babel-eslint eslint-plugin-react
+npm install --save-dev babel-eslint eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y@^2.2.3
 ```
 
 Tweak `.eslintrc`:
