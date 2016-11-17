@@ -1,4 +1,4 @@
-module.exports = function(flag) {
+module.exports = function (flag) {
   var config = { enabled: true };
 
   switch (flag) {

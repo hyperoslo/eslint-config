@@ -4,15 +4,18 @@
   "description": "Hyper's ESLint config",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.{js,jsx}; exit 0"
+    "lint": "eslint . fixtures --ext js,jsx"
   },
   "repository": "hyperoslo/eslint-config",
   "author": "Tim Kurvers <tim@moonsphere.net>",
   "license": "MIT",
   "devDependencies": {
-    "babel-eslint": "^4.1.1",
-    "eslint": "^1.3.1",
-    "eslint-config-airbnb": "^0.1.0",
-    "eslint-plugin-react": "^3.5.1"
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.10.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "react": "^15.3.2"
   }
 }
