@@ -3,6 +3,15 @@
   "version": "1.1.1",
   "description": "Hyper's ESLint config",
   "main": "index.js",
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE.md",
+    "README.md",
+    "base.js",
+    "index.js",
+    "legacy.js",
+    "react.js"
+  ],
   "scripts": {
     "lint": "eslint . fixtures --ext js,jsx"
   },
