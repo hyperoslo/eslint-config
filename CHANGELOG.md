@@ -1,5 +1,10 @@
 # Changelog
 
+### v1.2.0 - November 27, 2016
+
+- Latest `eslint` and `eslint-config-airbnb` packages.
+- Only publish package files.
+
 ### v1.1.1 - November 20, 2015
 
 - Enforce `babel-eslint` parser for ES6+.
