@@ -1,11 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
+import PropTypes from 'prop-types';
 import React from 'react';
 
 class Configuration extends React.Component {
-
   static propTypes = {
-    flag: React.PropTypes.number.isRequired,
+    flag: PropTypes.number.isRequired,
   };
 
   constructor(props) {
@@ -28,7 +28,6 @@ class Configuration extends React.Component {
       </config>
     );
   }
-
 }
 
 export default Configuration;
