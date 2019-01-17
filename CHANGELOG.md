@@ -1,5 +1,11 @@
 # Changelog
 
+### v2.0.0 - January 17, 2019
+
+- Latest `eslint` and `eslint-config-airbnb` packages.
+- Package is now published as `@hyperoslo/eslint-config`.
+- Remove legacy support.
+
 ### v1.2.0 - November 27, 2016
 
 - Latest `eslint` and `eslint-config-airbnb` packages.
