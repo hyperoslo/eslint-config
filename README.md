@@ -30,16 +30,6 @@ Tweak `.eslintrc`:
 }
 ```
 
-### ES5 (legacy)
-
-Tweak `.eslintrc`:
-
-```json
-{
-  "extends": "hyperoslo/legacy",
-}
-```
-
 ### React
 
 Additional dependencies to install:
