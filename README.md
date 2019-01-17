@@ -1,6 +1,6 @@
-# eslint-config-hyperoslo
+# @hyperoslo/eslint-config
 
-[![Version](https://img.shields.io/npm/v/eslint-config-hyperoslo.svg?style=flat)](https://www.npmjs.org/package/eslint-config-hyperoslo)
+[![Version](https://img.shields.io/npm/v/@hyperoslo/eslint-config.svg?style=flat)](https://www.npmjs.org/package/@hyperoslo/eslint-config)
 
 Hyper's ESLint configuration, based on [Airbnb's](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
 
