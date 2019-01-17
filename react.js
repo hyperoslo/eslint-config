@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb',
-    'eslint-config-hyperoslo',
+    '@hyperoslo/eslint-config',
   ],
 };

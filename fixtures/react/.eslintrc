@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": "hyperoslo/react"
+  "extends": "@hyperoslo/eslint-config/react"
 }

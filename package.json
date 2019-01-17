@@ -1,11 +1,14 @@
 {
-  "name": "eslint-config-hyperoslo",
+  "name": "@hyperoslo/eslint-config",
   "version": "1.2.0",
   "description": "Hyper's ESLint config",
+  "author": "Hyper Technology <technology@hyper.no>",
+  "repository": "github:hyperoslo/eslint-config",
+  "license": "MIT",
   "main": "index.js",
   "files": [
     "CHANGELOG.md",
-    "LICENSE.md",
+    "LICENSE",
     "README.md",
     "base.js",
     "index.js",
@@ -14,9 +17,6 @@
   "scripts": {
     "lint": "eslint . fixtures --ext js,jsx"
   },
-  "repository": "hyperoslo/eslint-config",
-  "author": "Tim Kurvers <tim@moonsphere.net>",
-  "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.12.0",
