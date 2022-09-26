@@ -1,6 +1,6 @@
 {
   "name": "@tryhuset/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "TRY's copy of Hyper's ESLint config",
   "author": "TRY Creative Tech <creativetech@try.no>",
   "repository": "github:tryhuset/eslint-config",
