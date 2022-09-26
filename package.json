@@ -1,9 +1,9 @@
 {
-  "name": "@hyperoslo/eslint-config",
-  "version": "2.0.0",
-  "description": "Hyper's ESLint config",
-  "author": "Hyper Technology <technology@hyper.no>",
-  "repository": "github:hyperoslo/eslint-config",
+  "name": "@tryhuset/eslint-config",
+  "version": "3.0.0",
+  "description": "TRY's copy of Hyper's ESLint config",
+  "author": "TRY Creative Tech <creativetech@try.no>",
+  "repository": "github:tryhuset/eslint-config",
   "license": "MIT",
   "main": "index.js",
   "files": [

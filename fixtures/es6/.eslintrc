@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": "@hyperoslo/eslint-config"
+  "extends": "@tryhuset/eslint-config"
 }
