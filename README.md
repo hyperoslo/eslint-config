@@ -1,6 +1,6 @@
-# @hyperoslo/eslint-config
+# @tryhuset/eslint-config
 
-[![Version](https://img.shields.io/npm/v/@hyperoslo/eslint-config.svg?style=flat)](https://www.npmjs.org/package/@hyperoslo/eslint-config)
+[![Version](https://img.shields.io/npm/v/@tryhuset/eslint-config.svg?style=flat)](https://www.npmjs.org/package/@tryhuset/eslint-config)
 
 Hyper's ESLint configuration, based on [Airbnb's](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
 
@@ -11,7 +11,7 @@ Licensed under the **MIT** license, see LICENSE for more information.
 Available via [npm](https://www.npmjs.com):
 
 ```shell
-npm install --save-dev eslint @hyperoslo/eslint-config eslint-config-airbnb
+npm install --save-dev eslint @tryhuset/eslint-config eslint-config-airbnb
 ```
 
 ### ES6
@@ -26,7 +26,7 @@ Tweak `.eslintrc`:
 
 ```json
 {
-  "extends": "@hyperoslo/eslint-config"
+  "extends": "@tryhuset/eslint-config"
 }
 ```
 
@@ -42,7 +42,7 @@ Tweak `.eslintrc`:
 
 ```json
 {
-  "extends": "@hyperoslo/eslint-config/react"
+  "extends": "@tryhuset/eslint-config/react"
 }
 ```
 
