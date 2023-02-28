@@ -1,7 +1,7 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   extends: [
     'eslint-config-airbnb/base',
-    '@hyperoslo/eslint-config/base',
+    '@tryhuset/eslint-config/base',
   ],
 };
